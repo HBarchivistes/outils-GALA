@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Fichier créé avec gala-csv2xml de HB archivistes, s.e.n.c. -->
+<!-- Contacter dominic.boisvert@hbarchivistes.qc.ca pour plus d'informations. -->
+<ROWSET>
+<ROW>
+     <ID_ORGANISME>12345</ID_ORGANISME>
+     <NUMDEMANDE>78</NUMDEMANDE>
+     <NUMREGLE>101.01</NUMREGLE>
+     <TYPE_TRANS>M</TYPE_TRANS>
+     <RECUEIL>MUN-2014</RECUEIL>
+     <TITRESER>Document constitutif</TITRESER>
+     <REFLEGALE></REFLEGALE>
+     <NO_RECUEIL></NO_RECUEIL>
+     <CODECLASS></CODECLASS>
+     <NO_RECUEIL>101.01</NO_RECUEIL>
+     <PROCACTIVI></PROCACTIVI>
+     <CODECLASS></CODECLASS>
+     <NOMUNITE></NOMUNITE>
+     <DESCSERIE>Documents relatifs à la création et à la constitution de la régie.</DESCSERIE>
+     <TYPESDOC>Charte, lettres patentes, armoiries, sceau, logo, drapeau</TYPESDOC>
+     <DOCUMESSEN>N</DOCUMESSEN>
+     <DOCUMCONFI>N</DOCUMCONFI>
+     <REMARQDELA>R1 : Disque réseau. R2 : Jusqu'à leur remplacement par une nouvelle version.</REMARQDELA>
+       <DELAI>
+         <DELAI_ROW>
+           <NUMREGLE>101.01</NUMREGLE>
+           <TYPEDOSS>P</TYPEDOSS>
+           <SUPPDOSS>PA, DM</SUPPDOSS>
+           <REM_SUPPDOSS>R1</REM_SUPPDOSS>
+           <PERIOACTIF>999</PERIOACTIF>
+           <REM_PERIOACTIF>R2</REM_PERIOACTIF>
+           <PERIOSMACT>0</PERIOSMACT>
+           <REM_PERIOSMACT></REM_PERIOSMACT>
+           <ID_REF_DISPOSITION>C</ID_REF_DISPOSITION>
+           <REM_DISPOINACT></REM_DISPOINACT>
+         </DELAI_ROW>
+       </DELAI>
+       <DELAI>
+         <DELAI_ROW>
+           <NUMREGLE>101.01</NUMREGLE>
+           <TYPEDOSS>S</TYPEDOSS>
+           <SUPPDOSS>PA, DM</SUPPDOSS>
+           <REM_SUPPDOSS>R1</REM_SUPPDOSS>
+           <PERIOACTIF>999</PERIOACTIF>
+           <REM_PERIOACTIF>R2</REM_PERIOACTIF>
+           <PERIOSMACT>0</PERIOSMACT>
+           <REM_PERIOSMACT></REM_PERIOSMACT>
+           <ID_REF_DISPOSITION>D</ID_REF_DISPOSITION>
+           <REM_DISPOINACT></REM_DISPOINACT>
+         </DELAI_ROW>
+       </DELAI>
+</ROW>
+<ROW>
+     <ID_ORGANISME>12345</ID_ORGANISME>
+     <NUMDEMANDE>78</NUMDEMANDE>
+     <NUMREGLE>101.02</NUMREGLE>
+     <TYPE_TRANS>M</TYPE_TRANS>
+     <RECUEIL>MUN-2014</RECUEIL>
+     <TITRESER>Fusion, dissolution, annexion et réorganisation territoriale</TITRESER>
+     <REFLEGALE></REFLEGALE>
+     <NO_RECUEIL></NO_RECUEIL>
+     <CODECLASS></CODECLASS>
+     <NO_RECUEIL>101.02</NO_RECUEIL>
+     <PROCACTIVI></PROCACTIVI>
+     <CODECLASS></CODECLASS>
+     <NOMUNITE></NOMUNITE>
+     <DESCSERIE>Projet, étude, analyse, négociation et réalisation.</DESCSERIE>
+     <TYPESDOC>Analyse, étude</TYPESDOC>
+     <DOCUMESSEN>N</DOCUMESSEN>
+     <DOCUMCONFI>N</DOCUMCONFI>
+     <REMARQDELA>R1 : Disque réseau. R2 : Jusqu’à la fin du processus de fusion, de dissolution, d’annexion ou de la réorganisation territoriale.</REMARQDELA>
+       <DELAI>
+         <DELAI_ROW>
+           <NUMREGLE>101.02</NUMREGLE>
+           <TYPEDOSS>P</TYPEDOSS>
+           <SUPPDOSS>PA, DM</SUPPDOSS>
+           <REM_SUPPDOSS>R1</REM_SUPPDOSS>
+           <PERIOACTIF>888</PERIOACTIF>
+           <REM_PERIOACTIF>R2</REM_PERIOACTIF>
+           <PERIOSMACT>0</PERIOSMACT>
+           <REM_PERIOSMACT></REM_PERIOSMACT>
+           <ID_REF_DISPOSITION>C</ID_REF_DISPOSITION>
+           <REM_DISPOINACT></REM_DISPOINACT>
+         </DELAI_ROW>
+       </DELAI>
+       <DELAI>
+         <DELAI_ROW>
+           <NUMREGLE>101.02</NUMREGLE>
+           <TYPEDOSS>S</TYPEDOSS>
+           <SUPPDOSS>PA, DM</SUPPDOSS>
+           <REM_SUPPDOSS>R1</REM_SUPPDOSS>
+           <PERIOACTIF>888</PERIOACTIF>
+           <REM_PERIOACTIF>R2</REM_PERIOACTIF>
+           <PERIOSMACT>0</PERIOSMACT>
+           <REM_PERIOSMACT></REM_PERIOSMACT>
+           <ID_REF_DISPOSITION>D</ID_REF_DISPOSITION>
+           <REM_DISPOINACT></REM_DISPOINACT>
+         </DELAI_ROW>
+       </DELAI>
+</ROW>
+</ROWSET>
