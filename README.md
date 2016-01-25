@@ -2,7 +2,7 @@
 
 outils-GALA est une série d'outils qui permettent de produire un fichier XML conforme aux exigences de Bibliothèque et Archives nationales du Québec ([BAnQ](thhp://www.banq.qc.ca)).
 
-Le script gala-csv2xml.py produit fichier XML à partir d'un fichier CSV.
+Le script gala-csv2xml.py produit fichier le XML à partir d'un fichier CSV.
 
 Le script gala-validateurxsd.py valide le fichier XML contre le [schéma](http://www.banq.qc.ca/documents/archives/archivistique_ged/gala/Regle_format_XSD.xsd) publié par BAnQ.
 
