@@ -12,8 +12,8 @@ xml_files = []
 
 def usage():
     print("Utilisation : ")
-    print("python XSDValidator.py <liste de fichiers xml> <liste des fichiers xsd>")
-    print("Il faut au minumum un fichier .xml et un fichier .xsd.")
+    print("python XSDValidator.py <liste des fichiers xml> <liste des fichiers xsd>")
+    print("Il faut au minimum un fichier .xml et un fichier .xsd.")
 
 def validate_files():
     """ validates every xml file against every schema file"""
