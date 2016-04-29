@@ -21,7 +21,7 @@ Pour lancer le script, en ligne de commande : `$ python gala-csv2xml.py Calendri
 Le fichier produit se nomme `CalendrierConservationGala.xml`.
 
 ##Problèmes connus
-- Le programme gala-csv2xml.py créer une ligne même si aucune valeur n'est inscrite dans le fichier csv (exemple, si le champs « Remarque semi-actif » n'est pas renseigné il existera tout de même une ligne avec la chaîne `<REM_PERIOSMACT/>`). Voir : http://www.banq.qc.ca/documents/archives/archivistique_ged/gala/Exemple_regles_format_xml.xml consulté le 2015-07-02.
+- Le programme gala-csv2xml.py créer une ligne même si aucune valeur n'est inscrite dans le fichier csv (exemple, si le champs « Remarque semi-actif » n'est pas renseigné il existera tout de même une ligne avec la chaîne `<REM_PERIOSMACT></REM_PERIOSMACT>`). Voir : http://www.banq.qc.ca/documents/archives/archivistique_ged/gala/Exemple_regles_format_xml.xml consulté le 2015-07-02.
 
 ##Liens
 - [Soumission d'un calendrier de conservation avec GALA](http://www.banq.qc.ca/archives/archivistique_gestion/services_partenaires/publics_centralises/soumission_calendrier_gala/?language_id=3) consulté le 2015-07-02.
