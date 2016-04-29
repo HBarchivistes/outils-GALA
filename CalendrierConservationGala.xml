@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- Fichier créé avec gala-csv2xml de HB archivistes, s.e.n.c. -->
 <!-- Contacter dominic.boisvert@hbarchivistes.qc.ca pour plus d'informations. -->
-<!-- Fichier généré le 2016-02-25 19:40:08 -->
-<!-- UUID 7cace20a-dc21-11e5-ac66-0c8bfd5c9c9d -->
+<!-- Fichier généré le 2016-04-29 19:45:00 -->
+<!-- UUID 6356eff6-0e64-11e6-978c-0c8bfd5c9c9d -->
 <ROWSET>
 <ROW>
      <ID_ORGANISME>12345</ID_ORGANISME>
@@ -12,7 +12,6 @@
      <RECUEIL>MUN-2014</RECUEIL>
      <TITRESER>Document constitutif</TITRESER>
      <REFLEGALE></REFLEGALE>
-     <NO_RECUEIL></NO_RECUEIL>
      <CODECLASS></CODECLASS>
      <NO_RECUEIL>101.01</NO_RECUEIL>
      <PROCACTIVI></PROCACTIVI>
@@ -34,7 +33,6 @@
            <PERIOSMACT>0</PERIOSMACT>
            <REM_PERIOSMACT></REM_PERIOSMACT>
            <ID_REF_DISPOSITION>C</ID_REF_DISPOSITION>
-           <REM_DISPOINACT></REM_DISPOINACT>
          </DELAI_ROW>
        </DELAI>
        <DELAI>
@@ -60,7 +58,6 @@
      <RECUEIL>MUN-2014</RECUEIL>
      <TITRESER>Fusion, dissolution, annexion et réorganisation territoriale</TITRESER>
      <REFLEGALE></REFLEGALE>
-     <NO_RECUEIL></NO_RECUEIL>
      <CODECLASS></CODECLASS>
      <NO_RECUEIL>101.02</NO_RECUEIL>
      <PROCACTIVI></PROCACTIVI>
@@ -82,7 +79,6 @@
            <PERIOSMACT>0</PERIOSMACT>
            <REM_PERIOSMACT></REM_PERIOSMACT>
            <ID_REF_DISPOSITION>C</ID_REF_DISPOSITION>
-           <REM_DISPOINACT></REM_DISPOINACT>
          </DELAI_ROW>
        </DELAI>
        <DELAI>

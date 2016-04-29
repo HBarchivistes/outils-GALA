@@ -2,7 +2,7 @@
 # -*- coding: UTF-8 -*-
 
 # gala-csv2xml.py
-# DB - 20160225
+# DB - 20160429
 # Source et inspiration : http://code.activestate.com/recipes/578384-convert-csv-to-xml/
 # Première ligne du fichier csv doit être une entête! Référez-vous au fichier CalendrierConservationExemple.csv.
 
@@ -13,7 +13,7 @@ import sys
 from lxml import etree
 
 csvFile = 'CalendrierConservation.csv' #Format : une ligne par règle de conservation.
-xmlFile = 'CalendrierConservationGala.xml'
+xmlFile = 'CalendrierConservationGala.xml' #Le fichier à importer dans GALA.
 csvData = csv.reader(open(csvFile))
 xmlData = open(xmlFile, 'w')
 
@@ -34,13 +34,13 @@ for row in csvData:
         tags = row
     else:
         xmlData.write('<ROW>' + "\n")
-        for i in range(0,18):
+        for i in range(0,17):
             xmlData.write('     ' + '<' + tags[i] + '>' \
                           + row[i] + '</' + tags[i] + '>' + "\n")
 #Permet d'écrire la section DELAI_ROW pour l'exemplaire principal.
         xmlData.write('       <DELAI>' + "\n")
         xmlData.write('         <DELAI_ROW>' + "\n")
-        for princ in range(19,29):
+        for princ in range(18,27):
             xmlData.write('         ' + '  <' + tags[princ] + '>' \
                           + row[princ] + '</' + tags[princ] + '>' + "\n")
         xmlData.write('         </DELAI_ROW>' + "\n")
@@ -48,7 +48,7 @@ for row in csvData:
 #Permet d'écrire la section DELAI_ROW pour l'exemplaire secondaire.
         xmlData.write('       <DELAI>' + "\n")
         xmlData.write('         <DELAI_ROW>' + "\n")
-        for sec in range(29,39):
+        for sec in range(28,38):
             xmlData.write('         ' + '  <' + tags[sec] + '>' \
                           + row[sec] + '</' + tags[sec] + '>' + "\n")
         xmlData.write('         </DELAI_ROW>' + "\n")
@@ -61,5 +61,6 @@ xmlData.write('</ROWSET>' + "\n")
 
 #Test pour enlever les nodes vides.
 #À développer.
+
 
 xmlData.close()
